@@ -1,0 +1,109 @@
+/*
+Created By
+Shahzaib
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    display:flex; /* You delete it on your web page */
+    justify-content:center;/* and this - delete */
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+button.sign-up, button.reset-btn{
+    margin-right: 30px!important;
+    background-color: #2a343c;
+    border-color: #2a343c;
+}
+button.log-in{
+    background-color: #2a343c;
+    border-color: #2a343c;
+}
+.content{
+    margin-top: 0;
+}
+.form-submit-btn{
+    float: right;
+}
+.login-card > form {
+    z-index: 4;
+    position: relative;
+    padding: 0px 25px;
+}
+.logo-cryptoland {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.logo {
+    height: auto;
+    padding:50px 0px;
+}
+h2{
+    color: #28bd9e;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.group {
+    position: relative;
+    margin-bottom: 25px;
+}
+.group input {
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    color: black;
+}
+.group input:focus {
+    outline: none;
+}
+.group label {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 5px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+.group input:focus ~ label,
+input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: black;
+}
+.span-input {
+    margin-left: 10px;
+    position: relative;
+    top: -5px;
+    color: black;
+}
+.forgot-and-create {
+    margin: 20px 0px;
+}
+.form-bottom-links a {
+    color: #2a343c;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 100;
+    margin-right: 10px;
+}
+.form-bottom-links{
+float: left
+}
+.login-form-email-messages{
+ margin-top: 66px;
+}
+.reset-btn{
+    width: 120px;
+}
